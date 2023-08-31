@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(194, 197, 197);
+}
+
+.Lister{
+    background-color: rgb(175, 201, 193);
+}
+.Labels{
+    background-color: rgb(200, 187, 212);
+}
+.LinkDDK{
+    background-color: rgb(178, 205, 184);
+}
+.Billeder{
+    background-color: rgb(212, 193, 182);
+}
+.Sødhund{
+    background-color: rgb(207, 182, 177);
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+
+h4{
+    font-size: 20px;
+}

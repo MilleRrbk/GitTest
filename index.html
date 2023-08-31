@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucca's hjemmeside</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lucca</h1>
+    <main>
+        <div class="Sødhund">
+            <h2>Det er en sød hund :-T</h2>
+        </div>
+
+        <div class="Billeder">
+        <h3>Billeder:</h3>
+            <img src="images/blæst.JPG" alt="Lucca får vind i pelsen" height="300">
+            <img src="images/sideye.jpg" alt="Lucca giver sideeye" height="300">
+            <img src="images/lang.jpg" alt="Lucca er lang" height="300">
+        </div>
+        <div class="LinkDDK">
+            <p>Læs mere om Lucca's race <a href="https://www.dkk.dk/race/dansk-spids" target="_blank"><strong>her</strong></a></p>
+        </div>
+        <div class="Lister">
+            <h4>Lister</h4>
+            <strong>
+                <p>Ting Lucca kan lide:</p>
+            </strong>
+            <ul>
+                <em>
+                    <li>At spise</li>
+                </em>
+                <li>At blive kælet</li>
+                <li>At gå tur</li>
+                <li>At se mærkelig ud</li>
+            </ul>
+            <strong>
+                <p>Top 3 ting  Lucca <em>ikke </em>kan lide:</p>
+            </strong>
+            <ol>
+                <li>Fluer</li>
+                <li>Vand</li>
+                <li>Små hunde</li>
+            </ol>
+        </div>
+
+        <div class="Labels"> 
+            <h5>Fortæl om din egen hund her:</h5>
+            <form action="/submit dog photo">
+                <label for="langhåret"><input id="langhåret" checked type="radio" name="langhåret-korthåret"> Langhåret hund</label><br>
+                <label for="korthåret"><input id="korthåret" type="radio" name="langhåret-korthåret"> Korthåret hund</label><br>
+                <label for="sød"><input id="sød" type="checkbox" name="Personlighed"> Sød</label><br>
+                <label for="sur"><input id="sur" type="checkbox" name="Personlighed"> Sur</label><br>
+                <label for="dum"><input id="dum" type="checkbox" name="Personlighed"> Dum</label><br>
+                <input type="text" placeholder="Hundebilleder URL" required>
+                <button type="submit">Submit</button>
+                </form>
+        </div>
+    </main> 
+    <footer>
+        <small>
+            <p>No copyright - <a href="https://www.youtube.com/watch?v=916GWv2Qs08&t=44s">HTML Crash Course</a></p>
+        </small>
+    </footer>
+
+</body> 
+</html>
